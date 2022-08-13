@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300;400;500;600;700;800&display=swap');
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Epilogue', sans-serif;
+    background-color: #fff;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    padding: 3rem 0 4rem;
+}
+.navbar{
+    display: flex;
+    padding: 2rem 2rem;
+    align-items: center;
+}
+.navbar_list{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 0 2rem 0 3rem;
+}
+
+.nav_list{
+   
+
+}
+.nav_item{
+    display: inline-block;
+    margin: 0 3rem 0 0;
+}
+
+.nav_link{
+    color: hsl(0, 0%, 41%);
+    text-decoration: none;
+}
+
+.register_btn{
+    border: 1px solid hsl(0, 0%, 8%);
+    border-radius: 10px;
+    padding: .7rem 1.7rem;
+    margin: 0;
+}
+
+
+/* styling for main part of design */
+
+.main_text{
+    width: 45%;
+
+}
+.main_hero{
+    width: 40%;
+}
+
+.primary_header{
+    font-weight: 800;
+    font-size: 4.5rem;
+}
+
+.primary_p{
+    color: hsl(0, 0%, 41%);
+    width: 87%;
+    margin: 2rem 0;
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+
+.main_btn{
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 98%);
+    padding: .9rem 2.4rem;
+    font-size: .85rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.main_client-logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.main_hero-image{
+    width: 100%;
+    object-fit: contain;
+}
