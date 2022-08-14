@@ -45,6 +45,8 @@ main{
 .nav_item{
     display: inline-block;
     margin: 0 3rem 0 0;
+    cursor: pointer;
+    padding: 0.9rem;
 }
 
 .nav_link{
@@ -69,7 +71,7 @@ main{
 }
 
 .dropdown-content{
-    margin: 1rem 0 0 0;
+    margin: .8rem 0 0 0;
     display: none;
     flex-direction: column;
     background-color: #fff;
