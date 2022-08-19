@@ -157,3 +157,49 @@ main{
     width: 100%;
     object-fit: contain;
 }
+
+
+/* media queries */
+
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 15px;
+    }
+
+    body{
+        /* overflow: hidden; */
+    }
+    
+    .navbar{
+        display: none;
+    }
+
+    main{
+        flex-direction: column-reverse;
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+    }
+    .main_text{
+        width: 100%;
+        padding: 2rem 2rem 0;
+    }
+    .main_hero{
+        width: 100%;
+        /* padding: 0; */
+    }
+
+    .primary_header {
+        /* font-weight: 800; */
+        font-size: 2rem;
+        display: inline-block;
+    }
+
+    .primary_p{
+        width: 100%;
+    }
+    
+    .main_client-logo{
+        margin-top: 3.5rem;
+    }
+  }
