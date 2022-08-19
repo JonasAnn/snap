@@ -182,7 +182,7 @@ main{
     }
     .main_text{
         width: 100%;
-        padding: 2rem 2rem 0;
+        padding: 5rem 1.2rem 1.3rem;
     }
     .main_hero{
         width: 100%;
@@ -197,9 +197,19 @@ main{
 
     .primary_p{
         width: 100%;
+        margin: 1rem 0 2rem;
     }
     
     .main_client-logo{
         margin-top: 3.5rem;
+    }
+
+    .client-logo{
+        width: 22%;
+    }
+
+    .client-logo img{
+        object-fit: contain;
+        width: 100%;
     }
   }
